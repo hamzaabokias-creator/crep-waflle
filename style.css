@@ -1,0 +1,72 @@
+body {
+font-family: "Roboto", sans-serif;
+background-color: #2e2e2e;
+color: white;
+padding: 3%;
+}
+
+header {
+display: inline-block;
+}
+
+h1{
+    display: inline-block;
+}
+
+.sell {
+    width: 16%;
+    height: auto;
+    position: fixed;
+    right: 0;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid #221f1f;
+    border-radius: 10px;
+    color: #f08535;
+}
+
+.category {
+    display: flex;
+    margin-top: 10px;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Firefox */
+}
+.cate {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #f08535;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.bp {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.product {
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #3c3c3c;
+    border-radius: 4px;
+    text-align: center;
+}
