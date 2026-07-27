@@ -1,25 +1,33 @@
 @media (max-width: 768px) {
-  body {
-    font-family: "Roboto", sans-serif;
+ body {
+font-family: "Roboto", sans-serif;
 background-color: #2e2e2e;
 color: white;
 padding: 3%;
-  }
+}
 }
 
 header {
-display: inline-block;
+display: flex;
+align-items: center;
+width: 100%;
 }
 
 h1{
     display: inline-block;
+    font-size: 20px;
+}
+
+.re {
+position: absolute;
+display: block;
+top: 44px;
+margin-bottom: 10px;
 }
 
 .sell {
     width: 16%;
-    height: auto;
-    position: fixed;
-    right: 0;
+    margin-left: auto;
 }
 
 input[type="text"] {
@@ -58,17 +66,30 @@ input[type="text"] {
 }
 
 section {
+    width: 300px;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 20px;
 }
 
-.product {
-    width: 40%;
+ .product { /* the best four products */
+    width: 90px;
+    height: 180px;
     margin: 10px;
     padding: 10px;
     background-color: #3c3c3c;
     border-radius: 4px;
     text-align: center;
+}
+
+img {
+    mix-blend-mode: screen;
+}
+
+.pr {
+    margin-top: -25% ;
+    width: 89%;
+    height: 50%;
 }
