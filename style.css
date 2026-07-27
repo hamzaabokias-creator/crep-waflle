@@ -1,8 +1,10 @@
-body {
-font-family: "Roboto", sans-serif;
+@media (max-width: 768px) {
+  body {
+    font-family: "Roboto", sans-serif;
 background-color: #2e2e2e;
 color: white;
 padding: 3%;
+  }
 }
 
 header {
