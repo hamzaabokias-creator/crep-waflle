@@ -8,6 +8,7 @@ padding: 3%;
 }
 
 header {
+text-align: center;
 display: flex;
 align-items: center;
 width: 100%;
@@ -66,7 +67,7 @@ input[type="text"] {
 }
 
 section {
-    width: 300px;
+    width: 350px;
 
     display: flex;
     flex-wrap: wrap;
