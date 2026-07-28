@@ -1,28 +1,35 @@
 @media (max-width: 768px) {
  body {
-font-family: "Roboto", sans-serif;
-background-color: #2e2e2e;
+ font-family: "Anton", sans-serif;
+background-color: #2c2c2c;
 color: white;
 padding: 3%;
 }
 }
 
 header {
-text-align: center;
-display: flex;
+color: #355434;
+text-align: left;
+display: inline-block;
 align-items: center;
 width: 100%;
 }
-
+hr{
+    border: 3px solid #355434;
+}
+.logo {
+    width: 100%;
+    border-radius: 44px;
+}
 h1{
     display: inline-block;
     font-size: 20px;
 }
 
 .re {
-position: absolute;
+/* position: absolute; */
 display: block;
-top: 44px;
+/* top: 44px; */
 margin-bottom: 10px;
 }
 
@@ -53,7 +60,7 @@ input[type="text"] {
     display: inline-block;
     margin-right: 10px;
     padding: 5px 10px;
-    background-color: #f08535;
+    background-color: #355434;
     border-radius: 4px;
     cursor: pointer;
 
@@ -68,29 +75,41 @@ input[type="text"] {
 
 section {
     width: 350px;
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
  .product { /* the best four products */
-    width: 90px;
-    height: 180px;
+    width: 116px;
+    height: 116px;
     margin: 10px;
     padding: 10px;
     background-color: #3c3c3c;
     border-radius: 4px;
     text-align: center;
+    font-size: 10px;
 }
-
-img {
-    mix-blend-mode: screen;
+ .product2 { /* the best four products */
+    width: 116px;
+    height: 116px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #3c3c3c;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 30px;
 }
 
 .pr {
-    margin-top: -25% ;
+    margin-top: -31%;
     width: 89%;
-    height: 50%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.point {
+    font-family: 'Courier New', Courier, monospace;
 }
