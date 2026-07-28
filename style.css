@@ -14,7 +14,7 @@ header {
     align-items: center;
     width: 100%;
 }
-hr{
+hr{   /* the horezental line*/
     border: 3px solid #355434;
 }
 .logo {
@@ -35,7 +35,9 @@ h1{
 
 .sell {
     width: 16%;
-    margin-left: auto;
+    margin-left: 54%;
+    /* margin-top: -1%; */
+    position: absolute;
 }
 
 input[type="text"] {
@@ -100,7 +102,7 @@ section {
     border-radius: 4px;
     text-align: center;
     font-size: 10px;
-    margin-top: 30px;
+    margin-top: 45px;
 }
 
 .pr {
