@@ -1,10 +1,19 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 @media (max-width: 768px) {
  body {
-    font-family: "Anton", sans-serif;
+    font-family: "Inter", sans-serif;
     background-color: #2c2c2c;
     color: white;
     padding: 3%;
 }
+
+/* * {
+    outline: 1px solid red !important;
+} */
 }
 
 header {
@@ -14,51 +23,56 @@ header {
     align-items: center;
     width: 100%;
 }
-hr{   /* the horezental line*/
-    border: 3px solid #355434;
-}
-.logo {
-    width: 100%;
-    border-radius: 44px;
-}
+
 h1{
     display: inline-block;
-    font-size: 20px;
+    font-size: 13px;
 }
 
-.re {
-    /* position: absolute; */
-    display: block;
-    /* top: 44px; */
-    margin-bottom: 10px;
-}
-
-.sell {
-    width: 16%;
-    margin-left: 50%;
-    /* margin-top: -1%; */
+.lang {                                 /*language icon*/
+    width: 6%;
+    margin-left: 60%;
     position: absolute;
 }
 
-input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    box-sizing: border-box;
-    border: 2px solid #221f1f;
-    border-radius: 10px;
-    color: #f08535;
+.re {                                   /*ready to order*/
+    display: block;
+    margin-bottom: 10px;
+    margin-top: -6px;
+    font-size: 10px;
 }
 
-.category {
+hr {                                      /* the horezental line*/
+    border: 3px solid #355434;
+}
+
+.logo {                                 /*the crep and wafll image (the main picture)*/
+    width: 100%;
+    border-radius: 44px;
+}
+
+.point {                                /*the points in category word*/
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bpFL {
+    color: #355434;
+}
+
+.category {                            /* category (section)*/
     display: flex;
-    margin-top: 10px;
+    margin-top: 0px;
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
-    scrollbar-width: none; /* Firefox */
+    scrollbar-width: none; 
 }
-.cate {
+.ca{                                    /*category (word)*/
+    margin: 3px 0 0 0;
+    font-size: 10px;
+}
+
+.cate {                                /*types of category*/
     display: inline-block;
     margin-right: 10px;
     padding: 5px 10px;
@@ -68,50 +82,50 @@ input[type="text"] {
 
 }
 
-.bp {
-    font-size: 24px;
+p.cate {
+    font-size: 8px;
+}
+
+.bp {                                  /*best proudects (word)*/
+    font-size: 15px;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 5px;
     text-align: center;
 }
 
-section {
-    width: 350px;
+section {                           /*the best four product (section)*/
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
- .product { /* the best four products */
-    width: 116px;
-    height: 116px;
-    margin: 10px;
-    padding: 10px;
-    background-color: #3c3c3c;
-    border-radius: 4px;
-    text-align: center;
-    font-size: 10px;
-}
- .product2 { /* the best four products */
-    width: 116px;
-    height: 116px;
-    margin: 10px;
-    padding: 10px;
-    background-color: #3c3c3c;
-    border-radius: 4px;
-    text-align: center;
-    font-size: 10px;
-    margin-top: 45px;
-}
-
-.pr {
+.ProductPic {                           /*produuct pictuire*/
     margin-top: -31%;
     width: 89%;
     height: 90%;
     border-radius: 10px;
 }
 
-.point {
-    font-family: 'Courier New', Courier, monospace;
+ .product1 ,.product2 {                         /* the best four products (the two in up) */
+    width: 116px;
+    height: 116px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #3c3c3c;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 10px;
+}
+ .product3 , .product4 {                    /* the best four products (the two in down) */
+    width: 116px;
+    height: 116px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #3c3c3c;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 30px;
 }
