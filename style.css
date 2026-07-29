@@ -55,7 +55,7 @@ hr {                                      /* the horezental line*/
     font-family: 'Courier New', Courier, monospace;
 }
 
-.bpFL {
+.bpFL {                      /*  !    */
     color: #355434;
 }
 
@@ -84,6 +84,7 @@ hr {                                      /* the horezental line*/
 
 p.cate {
     font-size: 12px;
+    color: white;
 }
 
 .bp {                                  /*best proudects (word)*/
@@ -109,8 +110,8 @@ section {                           /*the best four product (section)*/
 }
 
  .product1 ,.product2 {                         /* the best four products (the two in up) */
-    width: 127px;
-    height: 127px;
+    width: 122px;
+    height: 122px;
     margin: 10px;
     padding: 10px;
     background-color: #3c3c3c;
@@ -119,8 +120,8 @@ section {                           /*the best four product (section)*/
     font-size: 10px;
 }
  .product3 , .product4 {                    /* the best four products (the two in down) */
-    width: 127px;
-    height: 127px;
+    width: 122px;
+    height: 122px;
     margin: 10px;
     padding: 10px;
     background-color: #3c3c3c;
@@ -128,4 +129,11 @@ section {                           /*the best four product (section)*/
     text-align: center;
     font-size: 10px;
     margin-top: 30px;
+}
+
+footer {
+    text-align: center;
+    color: #355434;
+    font-size: 8px;
+    margin-top: 20px;
 }
