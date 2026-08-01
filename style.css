@@ -11,10 +11,9 @@ html, body {
     padding: 3%;
 }
 
-/* * {
-    outline: 1px solid red !important;
-} */
 }
+
+
 
 header {
     color: #355434;
@@ -95,7 +94,7 @@ p.cate {
 }
 
 section {                           /*the best four product (section)*/
-    width: 100%;
+    width: 94%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -107,28 +106,32 @@ section {                           /*the best four product (section)*/
     width: 89%;
     height: 90%;
     border-radius: 10px;
+    box-shadow: -3px 3px 6px -2px #b58a8a;
+}
+/* */
+ .product1 ,.product2 {                         /* the best four products (the two in up) */
+    width: 35%;
+    height: 35%;
+    margin-top: 5%;
+    padding: 5%;
+    background-color: #3c3c3c;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 10px;
+    box-shadow: 0 0 6px 0 #000000;
 }
 
- .product1 ,.product2 {                         /* the best four products (the two in up) */
-    width: 122px;
-    height: 122px;
-    margin: 10px;
-    padding: 10px;
-    background-color: #3c3c3c;
-    border-radius: 4px;
-    text-align: center;
-    font-size: 10px;
-}
  .product3 , .product4 {                    /* the best four products (the two in down) */
-    width: 122px;
-    height: 122px;
-    margin: 10px;
-    padding: 10px;
+    width: 40%;
+    height: 40%;
+    margin: 5px;
+    padding: 5px;
     background-color: #3c3c3c;
     border-radius: 4px;
     text-align: center;
     font-size: 10px;
-    margin-top: 30px;
+    margin-top: 15%;
+    box-shadow: 0 0 6px 0 #000000;
 }
 
 footer {
