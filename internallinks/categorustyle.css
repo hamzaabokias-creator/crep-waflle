@@ -40,9 +40,9 @@ nav {
 section {                           /*the best four product (section)*/
     width: 94%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
-    margin-top: 25px;
+    margin-top: 12px;
 }
 
 
@@ -51,7 +51,7 @@ section {                           /*the best four product (section)*/
     width: 89%;
     height: 90%;
     border-radius: 10px;
-     box-shadow: -3px 3px 6px -2px #b58a8a;
+    box-shadow: -3px 3px 6px -2px #b58a8a;
 }
 
  .product1 ,.product2 {                         /* the best four products (the two in up) */
@@ -67,7 +67,7 @@ section {                           /*the best four product (section)*/
     padding-bottom: 10%;
     transform: scale(1.15);
     transform-origin: top center;
-    margin-top: 25px;
+    margin-top: 36px;
 }
  .product3 , .product4 {                    /* the best four products (the two in down) */
     width: 35%;
@@ -83,6 +83,7 @@ section {                           /*the best four product (section)*/
     padding-bottom: 10%;
     transform: scale(1.15);
     transform-origin: top center;
+}
 
 a {
     color: white;
