@@ -64,19 +64,25 @@ section {                           /*the best four product (section)*/
     text-align: center;
     font-size: 10px;
     box-shadow: 0 0 25px 0 #000000;
+    padding-bottom: 10%;
+    transform: scale(1.15);
+    transform-origin: top center;
+    margin-top: 25px;
 }
  .product3 , .product4 {                    /* the best four products (the two in down) */
     width: 35%;
-    height: 122px;
+    height: 121px;
     margin: 10px;
     padding: 10px;
     background-color: #3c3c3c;
     border-radius: 4px;
     text-align: center;
-    font-size: 10px;
-    margin-top: 30px;
+    font-size: 13px;
+    margin-top: 50px;
     box-shadow: 0 0 25px 0 #000000;
-}
+    padding-bottom: 10%;
+    transform: scale(1.15);
+    transform-origin: top center;
 
 a {
     color: white;
