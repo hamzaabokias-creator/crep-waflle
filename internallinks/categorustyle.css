@@ -38,7 +38,7 @@ nav {
 }
 
 section {                           /*the best four product (section)*/
-    width: 100%;
+    width: 94%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -54,7 +54,7 @@ section {                           /*the best four product (section)*/
 }
 
  .product1 ,.product2 {                         /* the best four products (the two in up) */
-    width: 122px;
+    width: 35%;
     height: 122px;
     margin: 10px;
     padding: 10px;
@@ -65,7 +65,7 @@ section {                           /*the best four product (section)*/
     box-shadow: 0 0 25px 0 #000000;
 }
  .product3 , .product4 {                    /* the best four products (the two in down) */
-    width: 122px;
+    width: 35%;
     height: 122px;
     margin: 10px;
     padding: 10px;
