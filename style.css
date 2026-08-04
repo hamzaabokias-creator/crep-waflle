@@ -1,3 +1,7 @@
+:root {
+    --mainColor: #355434;
+}
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -15,8 +19,13 @@ html, body {
 
 
 
+a {
+    color: var(--mainColor);
+    text-decoration: none;
+}
+
 header {
-    color: #355434;
+    color: var(--mainColor);
     text-align: left;
     display: inline-block;
     align-items: center;
@@ -42,7 +51,7 @@ h1{
 }
 
 hr {                                      /* the horezental line*/
-    border: 3px solid #355434;
+    border: 3px solid var(--mainColor);
 }
 
 .logo {                                 /*the crep and wafll image (the main picture)*/
@@ -75,7 +84,7 @@ hr {                                      /* the horezental line*/
     display: inline-block;
     margin-right: 10px;
     padding: 5px 10px;
-    background-color: #355434;
+    background-color: var(--mainColor);
     border-radius: 4px;
     cursor: pointer;
 
@@ -99,6 +108,7 @@ section {                           /*the best four product (section)*/
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 25px;
+    margin-left: 3%;
 }
 
 .ProductPic {                           /*produuct pictuire*/
@@ -136,7 +146,7 @@ section {                           /*the best four product (section)*/
 
 footer {
     text-align: center;
-    color: #355434;
+    color: var(--mainColor);
     font-size: 8px;
     margin-top: 20px;
 }
