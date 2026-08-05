@@ -4,7 +4,6 @@
 
 html, body {
     max-width: 100%;
-    overflow-x: hidden;
 }
 
 @media (max-width: 768px) {
@@ -13,11 +12,18 @@ html, body {
     background-color: #2c2c2c;
     color: white;
     padding: 3%;
+    overflow-x: hidden;
 }
 
 }
 
-
+#lan {
+    width: 9%;
+    margin-left: 60%;
+    position: absolute;
+    top: 3%;
+    left: 25%;
+}
 
 a {
     color: var(--mainColor);
@@ -38,9 +44,11 @@ h1{
 }
 
 .lang {                                 /*language icon*/
-    width: 6%;
+    width: 9%;
     margin-left: 60%;
     position: absolute;
+    top: 3%;
+    right: 25%;
 }
 
 .re {                                   /*ready to order*/
@@ -116,7 +124,7 @@ section {                           /*the best four product (section)*/
     width: 89%;
     height: 90%;
     border-radius: 10px;
-    box-shadow: -3px 3px 6px -2px #b58a8a;
+    box-shadow: -3px 3px 6px -2px    #b58a8a;
 }
 /* */
  .product1 ,.product2 {                         /* the best four products (the two in up) */
